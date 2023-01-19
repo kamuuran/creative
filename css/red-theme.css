@@ -111,8 +111,12 @@
     color: white;
 }
 
-.header {
+/* .header {
     background-color: #272B2C;
+} */
+
+.header {
+    background-color: #000;
 }
 
 .header .info-content ul li {
