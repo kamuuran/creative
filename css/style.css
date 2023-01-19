@@ -435,6 +435,10 @@ body {
     background-color: #272B2C;
 }
 
+.header-text {
+    text-color:#FC300B;
+}
+
 .header .info-content {
     position: absolute;
     top: 0;
