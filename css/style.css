@@ -436,7 +436,7 @@ body {
 }
 
 .header-text {
-    font-color:#FC300B;
+    font-color:#FC300B !important;
 }
 
 .header .info-content {
