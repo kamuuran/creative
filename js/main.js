@@ -122,10 +122,10 @@ $(window).on("load", function () {
     // Header Text Animation
     $(function () {
         $('.header-text').typed({
-            strings: ["Freelancer", "Front End", "Developer", "Web", "Designer"], // <= Edit This
+            strings: ["Creative", "Professional", "Lovely", "Wonderful", "the Future"], // <= Edit This
             typeSpeed: 60,
             backSpeed: 30,
-            backDelay: 2000,
+            backDelay: 1500,
             showCursor: false,
             loop: true
         });
