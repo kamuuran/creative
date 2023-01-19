@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'gilroy-light';
+    src: url('gilroy-light-webfont.eot');
+    src: url('gilroy-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gilroy-light-webfont.ttf') format('truetype'),
+         url('gilroy-light-webfont.woff2') format('woff2'),
+         url('gilroy-light-webfont.woff') format('woff'),
+         url("gilroy-light-webfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url('gilroy-extrabold-webfont.eot');
+    src: url('gilroy-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gilroy-extrabold-webfont.ttf') format('truetype'),
+         url('gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('gilroy-extrabold-webfont.woff') format('woff'),
+         url("gilroy-extrabold-webfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}

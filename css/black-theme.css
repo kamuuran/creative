@@ -1,0 +1,550 @@
+/*------------------------------------------------------------------
+ * Theme Name: Limon
+ * Theme URI: https://www.brandio.io/envato/limon/html
+ * Author: Brandio
+ * Author URI: https://www.brandio.io/
+ * Copyright 2020 Brandio.
+ -------------------------------------------------------------------*/
+/* -----------------------------------
+    1 - General Styles
+------------------------------------*/
+::selection {
+    background-color: rgba(137, 139, 145, 0.7);
+}
+
+.lm-btn {
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 0.25rem #fff;
+    box-shadow: inset 0 0 0 0.25rem #fff;
+}
+
+.lm-btn:hover, .lm-btn:focus {
+    color: #272B2C;
+    -webkit-box-shadow: inset 0 0 0 3.25rem #fff;
+    box-shadow: inset 0 0 0 3.25rem #fff;
+}
+
+.lm-btn.primary {
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 0.28rem #000;
+    box-shadow: inset 0 0 0 0.28rem #000;
+}
+
+.lm-btn.primary:hover, .lm-btn.primary:focus {
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 3.25rem #000;
+    box-shadow: inset 0 0 0 3.25rem #000;
+}
+
+.lm-btn.black {
+    color: #000;
+    -webkit-box-shadow: inset 0 0 0 0.28rem #000;
+    box-shadow: inset 0 0 0 0.28rem #000;
+}
+
+.lm-btn.black:hover, .lm-btn.black:focus {
+    color: #fff;
+    -webkit-box-shadow: inset 0 0 0 3.25rem #000;
+    box-shadow: inset 0 0 0 3.25rem #000;
+}
+
+.btn-link {
+    color: #272B2C;
+}
+
+.btn-link:before {
+    background-color: #000;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #272B2C;
+}
+
+.menu-toggle:before {
+    background-color: #000;
+}
+
+.menu-toggle .icon {
+    background-color: transparent;
+}
+
+.menu-toggle .icon:before, .menu-toggle .icon:after {
+    background-color: #fff;
+}
+
+.menu-toggle.open .icon:before, .menu-toggle.open .icon:after {
+    background-color: #fff;
+}
+
+.menu-toggle.sm .icon:before, .menu-toggle.sm .icon:after {
+    background-color: #fff;
+}
+
+.menu-toggle.sm.open .icon:before, .menu-toggle.sm.open .icon:after {
+    background-color: #000;
+}
+
+.main-menu {
+    background-color: #000;
+}
+
+.main-menu .menu-links ul li a {
+    color: #fff;
+}
+
+.main-menu .menu-links ul li a:hover, .main-menu .menu-links ul li a:focus {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* -----------------------------------
+    2 - Header Styles
+------------------------------------*/
+.cnav .logo-bg {
+    background-color: #000;
+}
+
+.cnav .social-media .social-link-holder a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cnav .social-media .social-link-holder a:hover, .cnav .social-media .social-link-holder a:focus {
+    color: white;
+}
+
+.header {
+    background-color: #272B2C;
+}
+
+.header .info-content ul li {
+    color: #fff;
+}
+
+.header .info-content ul li a {
+    color: #fff;
+}
+
+.header .info-content ul li a:before {
+    background-color: #000;
+}
+
+.header .bg {
+    background-image: url("../images/bg1.svg");
+}
+
+.header .mouse-scroll {
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-box-shadow: 0 0.3rem 5rem rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0.3rem 5rem rgba(0, 0, 0, 0.24);
+}
+
+.header .mouse-scroll:before {
+    background-color: rgba(255, 255, 255, 0.21);
+}
+
+.extra-lg-text {
+    color: #fff;
+}
+
+.extra-lg-text .other-color {
+    color: #000;
+}
+
+/* -----------------------------------
+    3 - About Section Styles
+------------------------------------*/
+.sm-about {
+    background-color: #fff;
+}
+
+.sm-about .sm-text {
+    color: #121212;
+}
+
+.sm-about .md-text {
+    color: #000;
+}
+
+/* -----------------------------------
+    4 - Features Styles
+------------------------------------*/
+.features {
+    background-color: #fff;
+}
+
+.row-title {
+    color: #000000;
+}
+
+.feature-box .icon i {
+    color: #8A8B8D;
+}
+
+.feature-box .title {
+    color: #272B2C;
+}
+
+.feature-box:before {
+    background-color: #000;
+}
+
+.feature-box:hover .icon i {
+    color: #000;
+}
+
+.feature-box:hover .title {
+    color: #000;
+}
+
+/* -----------------------------------
+    5 - Products Styles
+------------------------------------*/
+.products {
+    background-color: #fff;
+}
+
+.product-box .title-holder {
+    background-color: #000;
+}
+
+.product-box .title-holder .title {
+    color: #fff;
+}
+
+.product-box .title-holder .tags {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* -----------------------------------
+    6 - Other Info Section Styles
+------------------------------------*/
+.other-info {
+    background-color: #000;
+}
+
+.other-info .row-title {
+    color: #fff;
+}
+
+.info-box:before {
+    background-image: url("../images/bg4.svg");
+}
+
+.info-box .title {
+    color: #fff;
+}
+
+.info-box .text {
+    color: #898989;
+}
+
+.info-box:hover .text {
+    color: #fff;
+}
+
+/* -----------------------------------
+    7 - Default Content Styles
+------------------------------------*/
+.default-content {
+    background-color: #232931;
+}
+
+.default-content .btn-link {
+    color: #fff;
+}
+
+.lg-text {
+    color: #fff;
+}
+
+.normal-text p {
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.slg-text {
+    color: #fff;
+}
+
+.slg-text .other-color {
+    color: #000;
+}
+
+.normal-lg-text p {
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.normal-lg-text p a {
+    color: rgba(255, 255, 255, 0.66);
+}
+
+/* -----------------------------------
+    8 - Clients Section Styles
+------------------------------------*/
+.clients-section {
+    background-color: #fff;
+}
+
+.clients-section .sm-text {
+    color: #000000;
+}
+
+.clients-section .lg-text {
+    color: #000;
+}
+
+.clients-section p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* -----------------------------------
+    9 - Other Content Styles
+------------------------------------*/
+.other-content {
+    background-color: #393E46;
+}
+
+.other-content p {
+    color: rgba(255, 255, 255, 0.66);
+}
+
+/* -----------------------------------
+    10 - Process Section Styles
+------------------------------------*/
+.process-section {
+    background-color: #fff;
+}
+
+.process-section .lg-text {
+    color: #000;
+}
+
+.process-section p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.text-box .title {
+    color: #000;
+}
+
+.text-box p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* -----------------------------------
+    11 - Team Section Styles
+------------------------------------*/
+.team-section {
+    background-color: #000;
+}
+
+.team-section .sm-text {
+    color: #fff;
+}
+
+.team-section .extra-lg-text {
+    color: #FFE200;
+    text-shadow: -10px 5px 0 rgba(0, 0, 0, 0);
+}
+
+/* -----------------------------------
+    12 - Jobs Section Styles
+------------------------------------*/
+.jobs-section {
+    background-color: #fff;
+}
+
+.jobs-section .lg-text {
+    color: #000;
+}
+
+.jobs-section .job-box .subtitle {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* -----------------------------------
+    13 - Blog Section Styles
+------------------------------------*/
+.blog-section {
+    background-color: #fff;
+}
+
+.post-box {
+    background-color: #EEEEEE;
+}
+
+.post-box .text-holder .title {
+    color: #000;
+}
+
+.post-box .text-holder .title:hover, .post-box .text-holder .title:focus {
+    color: #60666d;
+}
+
+.post-box .text-holder .text {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* -----------------------------------
+    14 - Post Section Styles
+------------------------------------*/
+.post-section {
+    background-color: #fff;
+}
+
+.post-section .post-header .post-info-holder .link-holder a {
+    color: #393E46;
+}
+
+.post-section .post-header .post-info-holder .link-holder a:hover, .post-section .post-header .post-info-holder .link-holder a:focus {
+    color: #60666d;
+}
+
+.post-section .post-header .post-info-holder .post-info .date {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.post-section .post-header .post-info-holder .post-info .auther {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.post-section .post-header .text-holder .title {
+    color: #232931;
+}
+
+.post-section .post-header .text-holder .text {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.post-section .post-content p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* -----------------------------------
+    15 - Few Contact Styles
+------------------------------------*/
+.few-contact {
+    background-color: #fff;
+}
+
+.few-contact .contact-info-holder .title {
+    color: #777A80;
+}
+
+.few-contact .contact-info-holder .contact-info {
+    color: #232931;
+}
+
+.few-contact .contact-info-holder .contact-info a {
+    color: #000;
+}
+
+.few-contact .contact-info-holder .contact-info a:hover, .few-contact .contact-info-holder .contact-info a:focus {
+    color: #777A80;
+}
+
+/* -----------------------------------
+    16 - Extra Contact Styles
+------------------------------------*/
+.extra-contact {
+    background-color: #232931;
+}
+
+.extra-contact .contact-info-box .title {
+    color: #777A80;
+}
+
+.extra-contact .contact-info-box .text {
+    color: #fff;
+}
+
+/* -----------------------------------
+    17 - Jobs Section Styles
+------------------------------------*/
+.our-people-section {
+    background-color: #fff;
+}
+
+.our-people-section .extra-lg-text {
+    color: #393E46;
+}
+
+.our-people-section .lg-text {
+    color: #000;
+}
+
+.our-people-section .normal-text p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.our-people-section .people-box .subtitle {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+/* -----------------------------------
+    18 - Project Info Styles
+------------------------------------*/
+.project-info {
+    background-color: #fff;
+}
+
+.project-info h2 {
+    color: #393E46;
+}
+
+.project-info .lg-text {
+    color: #000;
+}
+
+.project-info .normal-text p {
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.project-info .text-box .title {
+    color: #000;
+}
+
+.project-imgs {
+    background-color: #fff;
+}
+
+/* -----------------------------------
+    19 - Footer Styles
+------------------------------------*/
+.footer {
+    background-color: #000;
+}
+
+.footer:before {
+    background-image: none;
+}
+
+.footer .lg-text {
+    color: #fff;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.96);
+}
+
+.footer .contact-info-holder .title {
+    color: #fff;
+}
+
+.footer .contact-info-holder .contact-info {
+    color: #fff;
+}
+
+.footer .contact-info-holder .contact-info a {
+    color: #fff;
+}
+
+.footer .contact-info-holder .social-media .social-link-holder a {
+    color: #fff;
+}
+
+.footer.one-word .lg-text {
+    color: #fff;
+}
+
+/* -----------------------------------
+    20 - Responsive Styles
+------------------------------------*/
