@@ -118,6 +118,7 @@ $(window).on("load", function () {
         easing: 'linear',
         loop: true
     });
+    
     // Header Text Animation
     $(function () {
         $('.header-text').typed({

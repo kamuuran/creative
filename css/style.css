@@ -155,6 +155,8 @@ body {
     top: 8rem;
     -webkit-transition: all 500ms cubic-bezier(1, -0.02, 0.25, 0.75);
     transition: all 500ms cubic-bezier(1, -0.02, 0.25, 0.75);
+
+    display: none !important;  /*Change Display*/
 }
 
 .menu-toggle:before {
